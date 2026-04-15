@@ -22,7 +22,6 @@ pipeline {
                 sh """
                 terraform apply -auto-approve \
                 -var-file=envs/${params.ENV}.tfvars \
-                -var="key_name=mykey"
                 """
             }
         }

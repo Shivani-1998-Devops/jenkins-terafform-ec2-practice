@@ -1,2 +1,3 @@
-instance_type = "t2.micro"
+instance_type = "t3.micro"
 env           = "dev"
+linux_key     = "linux-key"
